@@ -1,0 +1,101 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+padding: 0;
+font: inherit;
+}
+
+html {
+color-scheme: dark light;
+}
+
+body {
+min-height: 100vh;
+}
+
+img, picture, svg, video {
+display: block;
+max-width: 100%;
+border-radius: 10px 10px 0 0;
+}
+
+body {
+  background: #23252C;
+  margin: 0;
+  color: #f5f5f5;
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.title {
+  color: #f3bf99;
+  margin-bottom: 1em;
+}
+
+.App {
+  background: #1A1B21;
+  width: 400px;
+  border-radius: 10px;
+  margin: 1em auto;
+  box-shadow: 0 0 10px black;
+}
+
+.name, 
+.about-me,
+.footer {
+  padding: 1em;
+}
+
+.about-me {
+  text-align: left;
+}
+
+.about-me > * {
+  margin-bottom: .5em;
+  padding: 0 0.5em;
+}
+
+.btn {
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  border: 0;
+  margin-right: .5em;
+  color: #374151;
+  width: calc(50% - 1.5em)
+}
+
+.btn:hover {
+  color: #fff;
+  background: #161619;
+}
+
+.btn-twitter {
+  background: #5093E2;
+  color: #fff;
+}
+
+.footer {
+  background: #161619;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.25em;
+}
+
+.footer > *:hover {
+  color: #5093E2;
+}
